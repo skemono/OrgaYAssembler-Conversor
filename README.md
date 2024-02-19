@@ -1,1 +1,1 @@
-Conversor en binario
+Conversor para Lab 04
