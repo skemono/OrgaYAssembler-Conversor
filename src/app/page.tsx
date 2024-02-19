@@ -56,14 +56,14 @@ export default function Home() {
       {/* Container 1 */}
       {/* Add similar structure with necessary functions and state variables */}
       <div className="flex flex-col w-full gap-12">
-        <div className="bg-gray-100 shadow rounded-lg p-4 flex flex-col gap-4">
+        <div className="bg-zinc-900 shadow rounded-lg p-4 flex flex-col gap-4">
           <h3 className="font-bold text-lg">Decimal → Binario</h3>
           <div className="flex flex-col gap-2">
             <label htmlFor="decimal1">Decimal:</label>
             <input
               id="decimal1"
               type="text"
-              className="border p-2 rounded-md"
+              className="bg-zinc-700 border p-2 rounded-md"
               onChange={handleDecimalChange}
               value={decimal1}
             />
@@ -71,7 +71,7 @@ export default function Home() {
             <input
               id="binario1"
               type="text"
-              className="border p-2 rounded-md readonly"
+              className="bg-zinc-700 border p-2 rounded-md readonly"
               readOnly
               value={binario1}
             />
@@ -82,14 +82,14 @@ export default function Home() {
       {/* Container 2 */}
       {/* Add similar structure with necessary functions and state variables */}
       <div className="flex flex-col w-full gap-12">
-        <div className="bg-gray-100 shadow rounded-lg p-4 flex flex-col gap-4">
+        <div className="bg-zinc-900 shadow rounded-lg p-4 flex flex-col gap-4">
           <h3 className="font-bold text-lg">Binario → Complemento 2</h3>
           <div className="flex flex-col gap-2">
             <label htmlFor="binario2">Binario:</label>
             <input
               id="binario2"
               type="text"
-              className="border p-2 rounded-md"
+              className="bg-zinc-700 border p-2 rounded-md"
               onChange={handleDecimalChange}
               value={binario2}
             />
@@ -97,7 +97,7 @@ export default function Home() {
             <input
               id="complemento2"
               type="text"
-              className="border p-2 rounded-md readonly"
+              className="bg-zinc-700 border p-2 rounded-md readonly"
               readOnly
               value={complemento2}
             />
@@ -107,14 +107,14 @@ export default function Home() {
       {/* Container 3 */}
       {/* Add similar structure with necessary functions and state variables */}
       <div className="flex flex-col w-full gap-12">
-        <div className="bg-gray-100 shadow rounded-lg p-4 flex flex-col gap-4">
+        <div className="bg-zinc-900 shadow rounded-lg p-4 flex flex-col gap-4">
           <h3 className="font-bold text-lg">Decimal ←→ Hexadecimal</h3>
           <div className="flex flex-col gap-2">
             <label htmlFor="decimal3">Decimal:</label>
-            <input
+            <input 
               id="decimal3"
               type="text"
-              className="border p-2 rounded-md"
+              className="bg-zinc-700 border p-2 rounded-md"
               onChange={handleDecimalChange}
               value={decimal3}
             />
@@ -122,7 +122,7 @@ export default function Home() {
             <input
               id="hexadecimal3"
               type="text"
-              className="border p-2 rounded-md"
+              className="bg-zinc-700 border p-2 rounded-md"
               onChange={handleDecimalChange}
               value={hexadecimal3}
             />
